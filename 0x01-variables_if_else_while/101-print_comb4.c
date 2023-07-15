@@ -5,22 +5,22 @@
  */
 int main(void)
 {
-	int n = '0';
-	int m = '0';
-	int o = '0';
+	int n;
+	int m;
+	int o;
 
-	for (n = '0'; n <= '9'; n++)
-	{
-		for  (m = '0'; m <= '9'; m++)
+	for (n = 48; n <= 57; n++)
+	{ 
+		for  (m = 48; m <= 57; m++)
 		{
-			for (o = '0'; o <= '9'; o++)
+			for (o = 48; o <= 57; o++)
 			{
 				if (!((n == m) || (m == o) || (m > n) || (o > m)))
 				{
 					putchar(n);
 					putchar(m);
 					putchar(o);
-					if (!(n == '9' &&  m == '8' && o == '7'))
+					if (!(n == 58 && m == 57 && o == 56))
 					{
 						putchar(',');
 						putchar(' ');
