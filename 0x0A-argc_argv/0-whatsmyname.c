@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 /**
  * main - prints the mane of the file
  * @argv: array
