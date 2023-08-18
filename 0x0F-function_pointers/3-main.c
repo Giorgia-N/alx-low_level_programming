@@ -8,7 +8,7 @@
  * @argv: array arguments.
  * Return: Always 0
  */
-int main(__attribute__((unused))argc, char *argv[])
+int main(int __attribute__((unused))argc, char *argv[])
 {
 	char *p;
 	int n1, n2;
@@ -20,7 +20,7 @@ int main(__attribute__((unused))argc, char *argv[])
 	}
 	n1 = atoi(argv[1]);
 	n2 = atoi(argv[2]);
-	p = agrv[3];
+	p = argv[3];
 	if (get_op_func(p) == NULL || p[1] != '\0')
 	{
 		printf("Error\n");

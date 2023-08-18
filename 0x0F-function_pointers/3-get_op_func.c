@@ -18,7 +18,7 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL},
 	};
-	int a = 0
+	int a = 0;
 
 		while (ops[a].op != NULL && *(ops[a].op) != *s)
 			a++;
