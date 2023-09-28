@@ -1,6 +1,5 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdlib.h>
+
 /**
  * _puts_recursion - A function that prints a string
  * @s: input
