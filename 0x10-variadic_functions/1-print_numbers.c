@@ -4,7 +4,7 @@
 /**
  * print_numbers - Prints numbers
  * @separator: The string to be printed
- * @n: The number of integers passe
+ * @n: The number of integers passed
  * @...: A variable number of numbers to be printed.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
